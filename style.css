@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.corpo-telefone{
+    margin-top: 3%;
+    background-color: black;
+    width: 25%;
+    height: 80vh;
+    border-radius: 15px 15px 15px 15px ;
+
+}
+.display-telefone{
+    width: 100%;
+    height: 95%;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px 0 0px;
+}
+
+
+#nav-telefone{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.178);
+    
+}
