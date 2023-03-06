@@ -9,12 +9,15 @@
 </head>
 <body>
     <div class="corpo-telefone">
+
+
+
         <div class="display-telefone">
 
             <section id="date-time">
-                <p>11:09</p>
-                <p>23/02</p>
-                <p>15%</p>
+                <p id="txt-navbar-info-hora">11:09</p>
+                <p id="txt-navbar-info-date">23/02</p>
+                <p class="txt-navbar-info">15%</p>
             </section>
 
             <section id="workspace">
@@ -31,11 +34,19 @@
                     
                 </div>
 
+               <!-- <section id="macarrao">
+                    <p>asdas</p>
+                    <p>asdas</p>
+                    <p>asdas</p>
+                    <p>asdas</p>
+                </section>-->
+
                 <div id="workspace-apps">
                     <figure><img src="./icons/17-avatar-man-nodding.svg" alt=""></figure>
                     <figure><img src="./icons/981-consultation.svg" alt=""></figure>
                     <figure><img src="./icons/45-clock-time.svg" alt=""></figure>
                     <figure><img src="./icons/43-music-note.svg" alt=""></figure>
+                    
                 </div>
 
 
@@ -44,22 +55,21 @@
 
         </div>
 
-
-
-
-
         <footer id="nav-telefone">
             <nav id="nav-one">
-                 <img class="imgNav" src="/icons/list_nav.png" alt="" height="24px" width="24px"> 
+                 <img class="imgNav" src="/icons/list_nav.png" alt=""> 
 
             </nav>
             <nav id="nav-two">
-                <img class="imgNav" src="/icons/circle_nav.png" alt="" height="24px" width="24px"> 
+                <img onclick="trocaCor()" class="imgNav" src="/icons/circle_nav.png" alt=""> 
             </nav>
             <nav id="nav-three">
-                <img class="imgNav" src="/icons/seta_nav.png" alt="" height="24px" width="24px">
+                <img onclick="tela()" class="imgNav" src="/icons/seta_nav.png" alt="">
             </nav>
         </footer>
     </div>
+
+    <script src="config.js">
+    </script>
 </body>
 </html>

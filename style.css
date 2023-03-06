@@ -26,8 +26,8 @@ body{
 }
 .display-telefone>#date-time{
     width: 100%;
-    height: 5%;
-    background-color: rgb(217, 178, 223);
+    height: 3%;
+    background-color: rgb(134, 134, 134);
     display: flex;
     justify-content: end;
     align-items: center;
@@ -46,11 +46,9 @@ body{
 }
 
 #workspace{
-  /*  background-color: rgb(97, 97, 57);*/
+    background-color: rgb(97, 97, 57);
     width: 100%;
     height: 95%;
-    
-    
 }
 #aplicativos-workspace{
     display: flex;
@@ -76,7 +74,7 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 45%;
+    height: 39%;
    /* background-color: red;*/
 }
 #workspace-apps>figure{
@@ -84,6 +82,7 @@ body{
     justify-content: space-evenly;
     background-color: rgb(248, 194, 253);
     width: 100%;
+    height: 120%;
     align-items: end;
 }
 #workspace-apps>figure>img{
@@ -110,7 +109,36 @@ body{
 
 }
 .imgNav{
-    height: 90%;
+    height: 50%;
     width: 100%;
     backdrop-filter: blur;
+    padding-top: 50%;
+}
+
+.txt-navbar-info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    height: 70%;
+    width: 100%;
+}
+
+#txt-navbar-info-hora{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 70%;
+    font-size: 12px;
+}
+
+#txt-navbar-info-date{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 650%;
+    height: 70%;
+    font-size: 12px;
+}
+
+
+#macarrao.active {
+    width: 100px;
+    height: auto;
+    background-color: aqua;
 }
